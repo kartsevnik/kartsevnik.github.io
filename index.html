@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formula</title>
+
+</head>
+<body>
+<h1>Моя форма</h1>
+                                        <!--Form block-->
+<form action="action1">
+    <input type="text" name="login" value="Логин"/><br/>
+    <input type="password" name="password" value="Пароль"/><br/>
+    <p>Ваш пол:</p>
+    <input type="radio" name="sex" value="male"/>Мужской<br/>
+    <input type="radio" name="sex" value="female"/>Женский<br/>
+    <p>Отметьте галочкой какие у вас домашние питомцы:</p>
+    <input type="checkbox" name="pet" value="cat">Кошка
+    <input type="checkbox" name="pet" value="dog">Собака
+    <input type="submit">
+    <input type="reset">
+    <input type="hidden" name="hidden">
+    <input type="file" name="file">
+</form>
+                                                    <!--Select block-->
+<select name="food" size="3" multiple="multiple">
+    <option value="pie">Пирог</option>
+    <option value="bread" selected="selected">Хлеб</option>
+    <option value="cookie" label="Печеньки"></option>
+</select>
+
+<select name="auto">
+    <optgroup label="Russian auto">
+        <option value="lada ellada">Lada Ellada</option>
+        <option value="lada kalina">Lada Kalina</option>
+    </optgroup>
+    <optgroup label="Deutch auto">
+        <option value="mers">Mersedess-Benz</option>
+        <option value="bmw">BMW</option>
+    </optgroup>
+</select>
+<p>SO<sub>2</sub>+NAOH=NA<sub>2</sub>SO<sub>3</sub>+H<sub>2</sub>O</p><br/>
+<p>5x<sup>3</sup>-5x(x<sup>2</sup>+4)=17</p>
+
+</body>
+</html>
